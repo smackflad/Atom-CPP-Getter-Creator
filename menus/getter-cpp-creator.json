@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create Getter Functions",
+        "command": "getter-cpp-creator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Getter Creator For C++",
+          "submenu": [
+            {
+              "label": "Create With Selected",
+              "command": "getter-cpp-creator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
